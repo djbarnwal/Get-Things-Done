@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To do app</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/jquery.min.js"></script>
+    <script src="/assets/todo-list.js"></script>
+  </head>
+  <body>
+    <h1>Get Things Done</h1>
+    <div id='todo-table'>
+      <form method="post">
+        <input type="text" name="item" placeholder="Add new item.. " autocomplete="off" required />
+        <button type="submit">Add Item</button>
+      </form>
+      <ul>
+        <% for (var i=0; i< todos.length; i++) { %>
+          <li><%= todos[i].item %><div class="delete-item"><img src="assets/images/delete.png"></div></li>
+        <% } %>
+      </ul>
+    </div>
+  </body>
+</html>
