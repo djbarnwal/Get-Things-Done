@@ -16,4 +16,4 @@ A todo list app made with MongoDB, NodeJs, Express and EJS
 
 ### Screenshot
 
-![Get Things Done]({{site.baseurl}}//GTD%20screenshot.png)
+![Get Things Done](https://image.ibb.co/njFAo5/GTD_screenshot.png)
