@@ -10,9 +10,9 @@ A todo list app made with MongoDB, NodeJs, Express and EJS
 
 - `git clone https://github.com/dhiraj161298/Get-Things-Done.git`
 - `cd Get-Things-Done`
-- `npm init`
+- `npm install`
 - `node app`
-- `open localhost:3001 in browser`
+- `open localhost:3001/todo in browser`
 
 ### Screenshot
 
