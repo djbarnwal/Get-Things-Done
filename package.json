@@ -1,7 +1,7 @@
 {
   "name": "to-do-app",
   "version": "1.0.0",
-  "description": "An application for your to-do list",
+  "description": "An application for your keeping your to-do list on-line.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
